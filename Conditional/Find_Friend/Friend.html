@@ -1,11 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Find Friend</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Find Friend</title>
 </head>
 <body>
-    <script src="/Conditional/Find_Friend/script.js"></script>
+
+<h2>Find Friends</h2>
+<label for="age">Enter your age:</label>
+<input type="number" id="N" name="age" placeholder="Your age...">
+<button onclick="Distance()">Distance</button>
+<p id="output"></p>
+
+<script>
+function Distance() {
+    let N = parseInt(document.getElementById("N").value);
+    let output = document.getElementById("output");
+
+    if (N < 13) {
+        output.textContent = "1 Kms";
+    } else if (N >= 13 && N < 18) {
+        output.textContent = "5 Kms";
+    } else if (N >= 18 && N < 30) {
+        output.textContent = "10 Kms";
+    } else {
+        output.textContent = "You can have friends from anywhere";
+    }
+}
+</script>
+
 </body>
 </html>
