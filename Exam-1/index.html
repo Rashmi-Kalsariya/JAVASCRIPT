@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hire Employee</title>
+    <link rel="shortcut icon" href="./user-tie-solid.svg" type="image/x-icon">
+
+    <style>
+        body {
+            background-image: url('https://img.freepik.com/free-photo/autumn-leaf-falling-revealing-intricate-leaf-vein-generated-by-ai_188544-9869.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 40px;
+            font-weight: 800;
+        }
+
+        .Content {
+            width: 30%;
+            margin: 50px auto;
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 20px;
+            margin: auto;
+            border: 2px solid white;
+            border-radius: 20px;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        select {
+            border: none;
+            border-radius: 5px;
+        }
+
+        .Employee_info {
+            margin: auto;
+        }
+
+        #user,
+        #jobrole,
+        #department,
+        #salary,
+        #email,
+        #Experience,
+        #hire {
+            width: 95%;
+            margin: 10px;
+            padding: 15px 0;
+        }
+
+        ::placeholder {
+            color: rgb(0, 0, 0);
+            font-size: 17px;
+            padding-left: 10px;
+        }
+
+        #jobrole,
+        #department {
+            color: rgb(0, 0, 0);
+            font-size: 17px;
+            padding-left: 10px;
+        }
+
+        #hire {
+            cursor: pointer;
+            font-size: x-large;
+            font-weight: 700;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Content">
+
+        <h1>Hire a New Employee</h1>
+
+
+        <form id="Employee_info">
+
+            <input id="user" type="text" placeholder="Employee name..."><br>
+
+            <select name="" id="jobrole">
+                <option value="">Select JobRole</option>
+                <option value="coodinator">coodinator</option>
+                <option value="Manager">Manager</option>
+                <option value="HR">HR</option>
+                <option value="Assistant Manager">Assistant Manager</option>
+                <option value="Employee">Employee</option>
+            </select><br>
+
+            <select name="" id="department">
+                <option value="">Select Department</option>
+                <option value="IT Manager">IT Manager</option>
+                <option value="Engneering">Engneering</option>
+                <option value="Admin">Admin</option>
+                <option value="System Analyst">System Analyst</option>
+                <option value="Communication">Communication</option>
+            </select><br>
+
+            <input id="salary" type="number" placeholder="Monthly Salary..."><br>
+
+            <input id="Experience" type="number" placeholder="Pre Work Experience..."><br>
+
+            <input id="email" type="text" placeholder="Contact Email..."><br>
+
+            <input type="submit" id="hire" value="Hire">
+
+        </form>
+
+    </div>
+
+
+    <table id="Employee Data">
+        <thead>
+            <tr>
+                <th>Employee Name</th>
+                <th>Job Role</th>
+                <th>Department</th>
+                <th>Salary</th>
+                <th>Work Experience</th>
+                <th>Contact Email</th>
+                <th>Role Type</th>
+                <th>Delete All</th>
+            </tr>
+        </thead>
+
+        <tbody id="tbodyData">
+
+        </tbody>
+    </table>
+
+
+    <table id="Employee Data-2">
+        <tbody id="tbodyDatacount">
+
+            <tr>
+                <td>TOTAL EMPLOYEE</td>
+                <td id="total_emp"></td>
+                <td>TOTAL SALARY</td>
+                <td id="total_salary"></td>
+            </tr>
+
+        </tbody>
+    </table>
+
+</body>
+
+<script src="./index.js"></script>
+
+</html>
