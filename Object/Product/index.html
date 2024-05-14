@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="shortcut icon" href="./product-hunt.svg" type="image/x-icon">
+
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+        
+        #product {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            text-align: center;
+        }
+
+        #product div {
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 25px;
+            border-radius: 3%;
+            box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.1);
+            background-color:aliceblue;
+        }
+
+
+        #product div img {
+            width: 200px;
+            padding: 10px;
+            transition-duration: 2s;
+        }
+
+        #product div img:hover{
+            transform: scale(1.2);
+        }
+
+
+        #product h3 {
+            font-size:larger;
+            color: rgb(0, 0, 0);
+
+        }
+
+
+        #product div p {
+            color: rgb(14, 14, 14);
+            font-weight: bold;
+            font-size: larger;
+        }
+
+
+        #product div button {
+            width: 250px;
+            padding: 13px;
+            margin: 5px;
+            background-color:rgb(29, 65, 52);
+            box-shadow: 1px 1px 1px 1px rgb(160, 160, 160);
+            border-radius: 6px;
+            font-size:16px;
+            font-weight: 700;
+            color: white;
+            cursor: pointer;
+            transition-duration: 1s;
+        }
+
+
+        #product div button:hover {
+            background-color: rgb(36, 96, 75);
+        }
+
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>PRODUCTS</h1>
+
+    <div id="product">
+
+    </div>
+
+</body>
+
+<script src="./script.js"></script>
+
+</html>
