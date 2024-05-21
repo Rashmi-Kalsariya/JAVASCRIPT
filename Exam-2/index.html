@@ -9,8 +9,8 @@
 </head>
 
 <body>
-
-    <img class="background-video" src="https://artfiles.alphacoders.com/367/36745.jpg" alt="">
+    <img class="background-img" src="https://i.pinimg.com/originals/db/fd/17/dbfd1790af27c9a5d8e27d574862ca6f.png"
+        alt="">
 
     <header>
         <a href="#"><img
@@ -33,36 +33,34 @@
 
     <section class="content">
         <h1>RAJAT SINHA</h1>
-        <a href="#" class="btn light"></a>
+        <a href="#DataAdd" class="btn light"></a>
     </section>
 
 
-    <div class="products">
-        <div class="sale">
-            <p id="Time">
+    <div class="cs">
 
-            </p>
-        </div>
+        <div id="Time"></div>
+
     </div>
 
+    <h1 id="pr">PRODUCTS</h1>
 
-    <div id="box"></div>
+    <div id="Products"></div>
 
+    <div class="container">
+        <form id="DataAdd">
+            <input id="title" type="text" placeholder="Enter Title..." /><br>
 
-    <br><br>
-    <div class="main">
-        <form id="data">
-            <input id="title" type="text" placeholder="Title..." /><br />
+            <input id="img" type="url" placeholder="Enter URL..." /><br>
 
-            <input id="img" type="url" placeholder="Enter URL..." /><br />
+            <input id="price" type="number" placeholder="Enter Price..." /><br>
 
-            <input id="price" type="number" placeholder="Enter Price..."  /><br />
-
-            <input type="submit" id="submit">
+            <input type="submit" id="add">
         </form>
     </div>
-    <hr />
-    
+
 </body>
+
+<script src="./index.js"></script>
 
 </html>
