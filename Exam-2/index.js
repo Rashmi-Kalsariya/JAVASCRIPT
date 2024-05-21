@@ -38,12 +38,15 @@ const uiMaker = () => {
 
         let title = document.createElement("h3")
         title.innerHTML = ele.title
+        title.style.color = "white"
 
         let img = document.createElement("img")
         img.src = ele.img
 
         let price = document.createElement("p")
         price.innerHTML = ele.price
+        price.style.color = "white"
+
 
         let div = document.createElement("div")
         let Del = document.createElement("button");
