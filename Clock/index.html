@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="shortcut icon" href="./clock-solid.svg" type="image/x-icon">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        #cont {
+            position: relative;
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background: #091921;
+        }
+
+        #cont::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(#e91e63, #ffc187);
+            clip-path: circle(22% at 28% 15%);
+        }
+
+        #cont::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(#ffffff, #da00ff);
+            clip-path: circle(22% at 78% 80%);
+        }
+
+        #cont #clock {
+            width: 650px;
+            height: 650px;
+            z-index: 1;
+            display: flex;
+            overflow: hidden;
+            justify-content: center;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.05);
+            border: 4px solid #091921;
+            border-radius: 50%;
+            backdrop-filter: blur(15px);
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            border-left: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .clock {
+            position: absolute;
+            top: 50%;
+        }
+
+        .text,
+        span {
+            font-weight: 700;
+            color: #fff;
+            font-family: "Lucida Handwriting", cursive;
+            text-shadow: 0 0 5px #fff;
+        }
+
+        #days {
+            position: absolute;
+            top: 30%;
+            left: 20%;
+            font-size: 80px;
+        }
+
+        #date {
+            position: absolute;
+            top: 50%;
+            left: 33%;
+            font-size: 30px;
+        }
+
+        .time {
+            position: absolute;
+            top: 60%;
+            left: 18%;
+        }
+
+        .time{
+            font-size: 70px;
+        }
+
+        #ampm{
+            position: absolute;
+            left: 103%;
+        }
+
+        #ampm{
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="cont">
+        <div id="clock">
+            <div>
+                <div class="text" id="days"></div>
+            </div>
+            <div>
+                <div class="text" id="date"></div>
+            </div>
+            <div class="time">
+                <span class="text" id="hrs"></span>
+                <span>:</span>
+                <span class="text" id="min"></span>
+                <span>:</span>
+                <span class="text" id="sec"></span>
+                <span class="text" id="ampm"></span>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="./index.js"></script>
+
+</html>
