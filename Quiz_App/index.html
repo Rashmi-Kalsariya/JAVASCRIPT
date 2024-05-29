@@ -4,27 +4,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QUIZ APP</title>
+    <title>QUIZ GAME</title>
+    <link rel="shortcut icon" href="./clipboard-question-solid.svg" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: auto;
+            padding: 20px;
+            width: 50%;
+        }
+
+        .qz h1 {
+            color: #333;
+        }
+
+        .qz button {
+            display: block;
+            width: 40%;
+            padding: 15px;
+            margin: 10px 0;
+            font-size: 16px;
+            border: 2px solid #949494;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #ccc;
+            transition: background-color 0.3s ease;
+        }
+
+        .qz button:hover {
+            opacity: 0.8;
+        }
+
+        .add {
+            margin-top: 30px;
+        }
+
+        .frm {
+            background: #fff;
+            padding: 90px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 60%;
+            margin: auto;
+        }
+
+        .frm input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .frm input[type="submit"] {
+            margin: auto;
+            padding: 15px 25px;
+            background-color: #1b231b;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .frm input[type="submit"]:hover {
+            background-color: #393939;
+        }
+
+        #frm-t {
+            text-align: center;
+        }
+
+        #title {
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
 
-    <div class="correct">
-        <h1 id="count"></h1>
-    </div>
-    <div class="div">
-    </div>
-    <div class="parent">
-        <h1>Add New Questions</h1>
-        <div class="form">
-            <form id="form">
-                <input type="text" placeholder="Enter Question" id="question" required>
-                <input type="text" placeholder="Enter Option 1" id="option1" required>
-                <input type="text" placeholder="Enter Option 2" id="option2" required>
-                <input type="text" placeholder="Enter Option 3" id="option3" required>
-                <input type="text" placeholder="Enter Option 4" id="option4" required>
-                <input type="text" placeholder="Enter Answer" id="answer" required>
-                <input type="submit">
+    <h1 id="title">THE QUIZ GAME</h1>
+<hr><hr>
+    <div class="qz"></div>
+    <hr><hr>
+    <div class="add">
+        <h1 id="frm-t">Add Questions</h1>
+        <div class="frm">
+            <form id="frm">
+                <input id="qst" type="text" placeholder="Enter Question..." required>
+                <input id="opt1" type="text" placeholder="Enter Opt1..." required>
+                <input id="opt2" type="text" placeholder="Enter Opt2..." required>
+                <input id="opt3" type="text" placeholder="Enter Opt3..." required>
+                <input id="opt4" type="text" placeholder="Enter Opt4..." required>
+                <input id="ans" type="text" placeholder="Enter Ans..." required>
+                <input id="addQ" type="submit" value="Add">
             </form>
         </div>
     </div>
