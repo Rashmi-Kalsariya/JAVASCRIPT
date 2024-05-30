@@ -10,7 +10,7 @@ const Time =()=>{
 
     let dayss=time.getDay();
 
-    let days=["SUNDAY","MONDAY","TUESDAY","WEDNESDAY","THURSDAY","FRIDAY","SATURDAY"]
+    let days=["SUNDAY","MONDAY","TUESDAY","WEDNES","THURS","FRIDAY","SATUR"]
     let months=['JANUARY','FEBRUARY','MARCH','APRIL','MAY','JUNE','JULY','AUGUST','SEPTEMBER','OCTOMBER','NOVEMBER','DECEMBER']
 
     day.innerHTML=days[dayss];

@@ -1,57 +1,32 @@
-var canvas = document.getElementById('canvas');
-var ctx = canvas.getContext('2d');
-ctx.strokeStyle = '#28d1fa';
-
-ctx.lineWidth = 17;
-ctx.lineCap = 'round';
-ctx.shadowBlur = 15;
-ctx.shadowColor = '#28d1fa';
-
-function degToRad(degree) {
-  var factor = Math.PI/180;
-  return degree*factor;
+const dice=() =>{
+    return Math.floor(Math.random() * 6) + 1;
 }
 
-function renderTime() {
-  
-  var now = new Date();
-  var today = now.toDateString();
-  var time = now.toLocaleTimeString();
-  var hours = now.getHours();
-  var minutes = now.getMinutes();
-  var seconds = now.getSeconds();
-  var milliseconds = now.getMilliseconds();
-  var newSeconds = seconds+ (milliseconds/1000);
-  
-  // Background
-  gradient = ctx.createRadialGradient(200,200,5,200,200,300);
-  gradient.addColorStop(0,'#09303a');
-  gradient.addColorStop(1, '#000000');
-  ctx.fillStyle = gradient;
-  ctx.fillRect(0,0,400,400);
-  
-  // Hours
-  ctx.beginPath();
-  ctx.arc(200, 200, 170, degToRad(270), degToRad((hours*30)-90));
-  ctx.stroke();
-  
-  // Minutes
-   ctx.beginPath();
-  ctx.arc(200, 200, 140, degToRad(270), degToRad((minutes*6)-90));
-  ctx.stroke();
-  // Seconds
-   ctx.beginPath();
-  ctx.arc(200, 200, 110, degToRad(270), degToRad((newSeconds*6)-90));
-  ctx.stroke();
-  // Date 
-  ctx.font = "20px Helvetica";
-  ctx.fillStyle = '#28d1fa';
-  ctx.fillText(today, 140, 200);
-  
-  // Time
-  ctx.font = "15px Helvetica";
-  ctx.fillStyle = '#28d1fa';
-  ctx.fillText(time, 140, 230);
-  
+const rollDice=()=> {
+    let diceElement = document.getElementById('dice');
+    let diceImage = document.getElementById('diceImage');
+
+    let diceImages = [
+        'https://game-icons.net/icons/ffffff/000000/1x1/skoll/inverted-dice-1.svg',
+        'https://game-icons.net/icons/ffffff/000000/1x1/skoll/inverted-dice-2.svg',
+        'https://game-icons.net/icons/ffffff/000000/1x1/skoll/inverted-dice-3.svg',
+        'https://game-icons.net/icons/ffffff/000000/1x1/skoll/inverted-dice-4.svg',
+        'https://game-icons.net/icons/ffffff/000000/1x1/skoll/inverted-dice-5.svg',
+        'https://game-icons.net/icons/ffffff/000000/1x1/skoll/inverted-dice-6.svg'
+    ];
+
+    let rollCount = 5; 
+    let rollInterval = setInterval(()=> {
+        let randomNumber = Math.floor(Math.random() * 6) + 1;
+        diceImage.src = diceImages[randomNumber - 1];
+        rollCount--;
+
+        
+        if (rollCount === 0) {
+            clearInterval(rollInterval);
+
+            let finalNumber = dice();
+            diceImage.src = diceImages[finalNumber - 1];
+        }
+    }, 500);
 }
-setInterval(renderTime, 40);

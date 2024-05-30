@@ -19,7 +19,9 @@ body {
 }
 
 
-/* Stop Watch Counter */
+/**********************
+    Counter1
+*********************/
 
 
 body {
@@ -60,7 +62,7 @@ body {
     background: #0a091c;
     cursor: pointer;
     color: aliceblue;
-    font-size:larger;
+    font-size: larger;
     font-weight: 800;
 }
 
@@ -79,50 +81,107 @@ body {
 
 @import url('https://fonts.googleapis.com/css?family=MedievalSharp|Uncial+Antiqua');
 
-        body{
-            overflow: hidden;
-        }
+body {
+    overflow: hidden;
+}
 
-        main {
-            background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-            color: #000000;
-            /*#173665;*/
-            text-align: center;
-            min-height: 100vh;
-            font-size: 40px;
-            font-family: 'Uncial Antiqua', serif;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
+main {
+    background-position: center;
+    color: #000000;
+    /* #173665; */
+    text-align: center;
+    min-height: 100vh;
+    font-size: 40px;
+    font-family: 'Uncial Antiqua', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-        div {
-            animation: neon .08s ease-in-out infinite alternate;
-        }
+div {
+    animation: neon .08s ease-in-out infinite alternate;
+}
 
-        #Time {
-            margin-top: 50px;
-        }
+#Time {
+    margin-top: 50px;
+    font-weight: 700;
+}
 
 
-        @media only screen and (min-width: 671px) {
-            #Time {
-                font-size: 70px;
-                font-family: 'Uncial Antiqua', serif;
+@media only screen and (min-width: 671px) {
+    #Time {
+        font-size: 70px;
+        font-family: 'Uncial Antiqua', serif;
 
-            }
-        }
+    }
+}
 
-        .text {
-            font-family: 'Uncial Antiqua', serif;
-            font-size: x-large 
-        }
+.text {
+    font-family: 'Uncial Antiqua', serif;
+    font-size: 50px;
+    font-weight: 800;
+}
 
-        .nav-link{
-            text-decoration: none;
-            text-shadow: none;
-        }
+.nav-link {
+    text-decoration: none;
+    text-shadow: none;
+}
+
+
+
+/********************
+     Counter3
+*******************/
+
+#c-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    text-align: center;
+}
+
+#count {
+    height: 200px;
+    width: 200px;
+    border: 10px solid rgb(0, 0, 0);
+    /* background: linear-gradient(#e66465, #9198e5); */
+    font-size: 50px;
+    font-weight: 800;
+    padding: 55px;
+    border-radius: 50%;
+}
+
+#c2 {
+    height: 200px;
+    width: 200px;
+    border: 10px solid rgb(0, 0, 0);
+    /* background: linear-gradient(#e66465, #9198e5); */
+    font-size: 50px;
+    font-weight: 800;
+    padding: 55px;
+    border-radius: 50%;
+}
+
+#c3 {
+    height: 200px;
+    width: 200px;
+    border: 10px solid rgb(0, 0, 0);
+    /* background: linear-gradient(#e66465, #9198e5); */
+    font-size: 50px;
+    font-weight: 800;
+    padding: 55px;
+    border-radius: 50%;
+}
+
+#c4 {
+    height: 200px;
+    width: 200px;
+    border: 10px solid rgb(0, 0, 0);
+    /* background: linear-gradient(#e66465, #9198e5); */
+    font-size: 50px;
+    font-weight: 800;
+    padding: 55px;
+    border-radius: 50%;
+}

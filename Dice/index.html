@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice</title>
+    <link rel="shortcut icon"
+        href="https://pics.clipartpng.com/idownload-image.php?file=Black_Dice_PNG_Clipart-3334.png" type="image/x-icon">
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            background-image: url('https://vegasslots.net/wp-content/uploads/2019/02/sic-bo.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #diceContainer {
+            margin-bottom: 20px;
+        }
+
+
+        @keyframes rollDiceAnimation {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        #dice img {
+            width: 450px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        #rollButton {
+            height: 50px;
+            width: 150px;
+            background-color: #ff0000;
+            border: none;
+            border-radius: 8px;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 80px 0;
+            text-align: center;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; 
+            -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+        }
+
+        #rollButton:hover {
+            box-shadow: rgba(240, 46, 46, 0.4) 0px 5px, rgba(240, 46, 46, 0.3) 0px 10px, rgba(240, 46, 46, 0.2) 0px 15px, rgba(240, 46, 46, 0.1) 0px 20px, rgba(240, 46, 46, 0.05) 0px 25px;        }
+    </style>
+</head>
+
+<body>
+    <div id="diceContainer">
+        <div id="dice">
+            <img id="diceImage" src="https://game-icons.net/icons/ffffff/000000/1x1/skoll/inverted-dice-1.svg"
+                alt="Dice">
+        </div>
+    </div>
+    <button id="rollButton" onclick="rollDice()">Roll Dice</button>
+</body>
+
+<script src="./index.js"></script>
+
+</html>
