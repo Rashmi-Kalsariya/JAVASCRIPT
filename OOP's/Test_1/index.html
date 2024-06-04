@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BankAccount</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon"
+        href="https://png.pngtree.com/png-clipart/20190517/original/pngtree-vector-bank-icon-png-image_3762870.jpg"
+        type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="nav-wrapper">
+            <div class="logo-container">
+                <img class="logo" src="https://www.berrylush.com/cdn/shop/files/logo_berrylush_1_200x.png?v=1705128955"
+                    alt="Logo">
+            </div>
+            <nav>
+                <input class="hidden" type="checkbox" id="menuToggle">
+                <label class="menu-btn" for="menuToggle">
+                    <div class="menu"></div>
+                    <div class="menu"></div>
+                    <div class="menu"></div>
+                </label>
+                <div class="nav-container">
+                    <ul class="nav-tabs">
+                        <li class="nav-tab">Home</li>
+                        <li class="nav-tab">Products</li>
+                        <li class="nav-tab">Services</li>
+                        <li class="nav-tab">FAQ</li>
+                        <li class="nav-tab">Contact</li>
+                        <li class="nav-tab">Careers</li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="main">
+        <form id="form">
+            <input id="user" type="text" placeholder="Enter Your Name..." required>
+            <input id="no" type="number" placeholder="Enter Your Number..." required>
+            <input id="adr" type="text" placeholder="Enter Your Address..." required>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <div class="D-container">
+        <div id="details"></div>
+    </div>
+
+    <div class="product-container">
+        <div class="product" price="378">
+            <img src="https://www.berrylush.com/cdn/shop/products/1_c64a006e-e4d3-4326-85f7-1c436fb6a61b.jpg?v=1698831456&width=800"
+                alt="">
+            <h3>V-Neck Top</h3>
+            <p>378₹</p>
+            <button class="buybtn" onclick="buyProduct(378)">Order Now</button>
+        </div>
+        <div class="product" price="745">
+            <img src="https://www.berrylush.com/cdn/shop/products/1_4a4bf74e-4186-479e-b204-1d423a228479.jpg?v=1674889547&width=800"
+                alt="">
+            <h3>Blouson Top</h3>
+            <p>745₹</p>
+            <button class="buybtn" onclick="buyProduct(745)">Order Now</button>
+        </div>
+        <div class="product" price="287">
+            <img src="https://www.berrylush.com/cdn/shop/products/2_4112bc40-dc3f-472d-a3da-a0cb67289f90.jpg?v=1698831108&width=300"
+                alt="">
+            <h3>Crepe CropTop</h3>
+            <p>287₹</p>
+            <button class="buybtn" onclick="buyProduct(287)">Order Now</button>
+        </div>
+        <div class="product" price="503">
+            <img src="https://cdn.shopify.com/s/files/1/1018/4207/products/1_64b9a764-e0bd-44d8-a2f4-c9d968eed615.jpg?v=1645174718&width=300"
+                alt="">
+            <h3>Smoked Top</h3>
+            <p>503₹</p>
+            <button class="buybtn" onclick="buyProduct(503)">Order Now</button>
+        </div>
+        <div class="product" price="314">
+            <img src="https://cdn.shopify.com/s/files/1/1018/4207/products/2_bc6b02ab-b95b-4d82-888a-13481846a40f.jpg?v=1642148453&width=300"
+                alt="">
+            <h3>PuffSleve Top</h3>
+            <p>314₹</p>
+            <button class="buybtn" onclick="buyProduct(314)">Order Now</button>
+        </div>
+        <div class="product" price="594">
+            <img src="https://cdn.shopify.com/s/files/1/1018/4207/products/2_77725572-e7f0-48bd-a734-e76820d460fe.jpg?v=1668748036&width=300"
+                alt="">
+            <h3>WrappeCrop Top</h3>
+            <p>594₹</p>
+            <button class="buybtn" onclick="buyProduct(594)">Order Now</button>
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+
+</html>
