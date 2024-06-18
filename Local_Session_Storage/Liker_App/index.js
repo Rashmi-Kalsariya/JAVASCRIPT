@@ -49,4 +49,4 @@ const counter4 = () => {
 document.querySelector(".fa-bell").addEventListener("click", counter4);
 document.querySelector(".fa-share-nodes").addEventListener("click", counter3);
 document.querySelector(".fa-comment").addEventListener("click", counter2);
-document.querySelector(".fa-heart").addEventListener("click", counter1);
+document.querySelector("#hi").addEventListener("click", counter1);
