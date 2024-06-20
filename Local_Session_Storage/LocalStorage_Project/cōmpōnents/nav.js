@@ -1,5 +1,5 @@
 
-const nav = () => {
+const nav = (login="login",signup="signup") => {
     return `<nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
 <img src="https://assets.faballey.com/images/indya/logo.png?v=14.6" alt="Logo" height="50px" width="90px">
@@ -22,10 +22,10 @@ const nav = () => {
           <a class="nav-link" href="../LocalStorage_Project/pages/cart.html" tabindex="-1" target="_blank">cart</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../LocalStorage_Project/pages/login.html" tabindex="-1" target="_blank">LogIn</a>
+          <a class="nav-link" href="../LocalStorage_Project/pages/login.html" tabindex="-1" target="_blank">${login}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../LocalStorage_Project/pages/signup.html" tabindex="-1" target="_blank">SignUp</a>
+          <a class="nav-link" href="../LocalStorage_Project/pages/signup.html" tabindex="-1" target="_blank">${signup}</a>
         </li>
       </ul>
       <form class="d-flex">
