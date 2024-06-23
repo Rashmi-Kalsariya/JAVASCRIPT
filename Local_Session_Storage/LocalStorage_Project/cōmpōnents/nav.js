@@ -28,8 +28,8 @@ const nav = (login="login",signup="signup") => {
           <a class="nav-link" href="../LocalStorage_Project/pages/signup.html" tabindex="-1" target="_blank">${signup}</a>
         </li>
       </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <form class="d-flex" id="Searching">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
     </div>
