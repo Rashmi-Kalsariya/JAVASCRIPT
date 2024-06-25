@@ -33,13 +33,13 @@ const LoginData = (e) => {
         else {
             alert("logged in " + user.email);
             document.getElementById("nav").innerHTML = nav("logout", SignupDetails.username)
-            window.location.href = "/Local_Session_Storage/LocalStorage_Project/index.html"
+            window.location.href = "/JAVASCRIPT/Local_Session_Storage/LocalStorage_Project/index.html"
             // localStorage.setItem("isLogin", true)
         }
     }
     else {
         alert("SignUp First!!")
-        window.location.href = "/Local_Session_Storage/LocalStorage_Project/pages/signup.html"
+        window.location.href = "/JAVASCRIPT/Local_Session_Storage/LocalStorage_Project/pages/signup.html"
 
     }
 }
