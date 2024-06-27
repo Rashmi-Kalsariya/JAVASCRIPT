@@ -28,7 +28,7 @@ const productData = (e)=>{
     products.push(product);
     localStorage.setItem("products" , JSON.stringify(products));
     alert("Product Added Successfully!!!")
-    window.location.href = "/JAVASCRIPT/Local_Session_Storage/LocalStorage_Project/pages/product.html"
+    window.location.href = "/LocalStorage_Project/pages/product.html"
 
 }
 

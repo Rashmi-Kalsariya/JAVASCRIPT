@@ -1,0 +1,94 @@
+/* index.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.filter-buttons {
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.likes-sort, .price-sort {
+    margin-bottom: 10px;
+}
+
+.likes-sort button, .price-sort button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+.likes-sort{
+    margin: 0 100px;
+}
+
+.price-sort{
+    margin: 0 100px;
+}
+
+.likes-sort button:hover, .price-sort button:hover {
+    background-color: #282828;
+}
+
+.List {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#productList div {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#productList img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#productList h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+#productList p {
+    color: #555;
+    margin: 5px 0;
+}
+
+#productList button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+#productList button:hover {
+    background-color: #343434;
+}

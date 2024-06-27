@@ -32,7 +32,7 @@ const HandlecartList=(e)=>{
             }
         })
         alert("Quantity Added Successfully");
-        window.location.href = "/JAVASCRIPT/Local_Session_Storage/LocalStorage_Project/pages/cart.html"
+        window.location.href = "/LocalStorage_Project/pages/cart.html"
     }
     else{
         cartList.push({...e, qty: 1})

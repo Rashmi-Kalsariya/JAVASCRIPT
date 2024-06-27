@@ -13,19 +13,19 @@ const nav = (login = "login", signup = "signup") => {
           <a class="nav-link active" aria-current="page" href="./pages/index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/JAVASCRIPT/LocalStorage_Project/pages/product.html" target="_blank">Product</a>
+          <a class="nav-link" href="/LocalStorage_Project/pages/product.html" target="_blank">Product</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/JAVASCRIPT/LocalStorage_Project/pages/addproduct.html" tabindex="-1" target="_blank">AddProducts</a>
+          <a class="nav-link" href="/LocalStorage_Project/pages/addproduct.html" tabindex="-1" target="_blank">AddProducts</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/JAVASCRIPT/LocalStorage_Project/pages/cart.html" tabindex="-1" target="_blank">cart</a>
+          <a class="nav-link" href="/LocalStorage_Project/pages/cart.html" tabindex="-1" target="_blank">cart</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/JAVASCRIPT/LocalStorage_Project/pages/login.html" tabindex="-1" target="_blank">${login}</a>
+          <a class="nav-link" href="/LocalStorage_Project/pages/login.html" tabindex="-1" target="_blank">${login}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/JAVASCRIPT/LocalStorage_Project/pages/signup.html" tabindex="-1" target="_blank">${signup}</a>
+          <a class="nav-link" href="/LocalStorage_Project/pages/signup.html" tabindex="-1" target="_blank">${signup}</a>
         </li>
       </ul>
       <form class="d-flex" id="Searching">

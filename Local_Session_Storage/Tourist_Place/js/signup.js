@@ -1,17 +1,8 @@
-import nav from "../cōmpōnents/nav.js";
+import navbar from "../components/navbar.js"
 
-document.getElementById("nav").innerHTML = nav()
+document.getElementById("navbar").innerHTML = navbar();
 
 let SignupDetails = JSON.parse(localStorage.getItem("user"));
-
-
-if (SignupDetails) {
-    document.getElementById("nav").innerHTML = nav("logout", SignupDetails.username)
-}
-else {
-    document.getElementById("nav").innerHTML = nav()
-}
-
 
 
 const SignupData = (e) => {
@@ -25,7 +16,7 @@ const SignupData = (e) => {
 
     }
     localStorage.setItem("user", JSON.stringify(user));
-    window.location.href = "/JAVASCRIPT/Local_Session_Storage/LocalStorage_Project/index.html"
+    window.location.href = "/Local_Session_Storage/Tourist_Place/index.html"
 }
 
 document.getElementById("SignupData").addEventListener("submit",SignupData)
