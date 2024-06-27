@@ -66,8 +66,8 @@ const HandleCost=(order)=>{
     }
 }
 
-document.getElementById("priceLTH").addEventListener("click" , ()=>HandleCost("priceLTH"))
-document.getElementById("priceHTL").addEventListener("click" , ()=>HandleCost("priceHTL"))
+document.getElementById("priceLTH").addEventListener("click" , ()=>HandleCost("priceLTH"));
+document.getElementById("priceHTL").addEventListener("click" , ()=>HandleCost("priceHTL"));
 
 
 
