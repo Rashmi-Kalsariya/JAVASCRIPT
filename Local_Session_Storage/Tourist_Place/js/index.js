@@ -82,6 +82,6 @@ const handleLikes = (order) => {
 };
 
 document.getElementById("likesLTH").addEventListener("click", () => handleLikes("likesLTH"));
-document.getElementById("likesHTL").addEventListener("click", () => handleLikes("likesHTL"));
+document.getElementById("likesHTL").addEventListener("click", () => handleLikes("likesHTL"))
 
 
