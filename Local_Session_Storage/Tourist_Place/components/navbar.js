@@ -10,11 +10,11 @@ const navbar = () => {
       <ul class="links">
         <li><a href="#">Home</a></li>
 
-        <li><a href="/Local_Session_Storage/Tourist_Place/pages/addplaces.html" class="nav-login">Add Places</a></li>
+        <li><a href="/JAVASCRIPT/Local_Session_Storage/Tourist_Place/pages/addplaces.html" class="nav-login">Add Places</a></li>
 
-        <li><a href="/Local_Session_Storage/Tourist_Place/pages/login.html" class="nav-login">Login</a></li>
+        <li><a href="/JAVASCRIPT/Local_Session_Storage/Tourist_Place/pages/login.html" class="nav-login">Login</a></li>
 
-        <li><a href="/Local_Session_Storage/Tourist_Place/pages/signup.html">SignUp</a></li>
+        <li><a href="/JAVASCRIPT/Local_Session_Storage/Tourist_Place/pages/signup.html">SignUp</a></li>
       </ul>
     </div>
     <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
