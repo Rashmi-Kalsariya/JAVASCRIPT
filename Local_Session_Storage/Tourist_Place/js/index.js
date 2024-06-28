@@ -60,8 +60,8 @@ const HandleCost = (order) => {
         ProductItems(temp)
     }
     else {
-        let temp = products.sort((a, b) => b.price - a.price)
-        ProductItems(temp)
+        let temp = products.sort((a, b) => b.price - a.price);
+        ProductItems(temp);
     }
 }
 
