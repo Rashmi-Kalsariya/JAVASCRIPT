@@ -16,7 +16,7 @@ const SignupData = (e) => {
 
     }
     localStorage.setItem("user", JSON.stringify(user));
-    window.location.href = "/Local_Session_Storage/Tourist_Place/index.html"
+    window.location.href = "/JAVASCRIPT/Local_Session_Storage/Tourist_Place/index.html"
 }
 
 document.getElementById("SignupData").addEventListener("submit",SignupData)

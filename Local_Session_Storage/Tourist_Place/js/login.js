@@ -23,12 +23,12 @@ const LoginData = (e) => {
         }
         else {
             alert("logged in " + user.email);
-            window.location.href = "/Local_Session_Storage/Tourist_Place/index.html"
+            window.location.href = "/JAVASCRIPT/Local_Session_Storage/Tourist_Place/index.html"
         }
     }
     else {
         alert("SignUp First!!")
-        window.location.href = "/Local_Session_Storage/Tourist_Place/pages/signup.html"
+        window.location.href = "/JAVASCRIPT/Local_Session_Storage/Tourist_Place/pages/signup.html"
 
     }
 }

@@ -17,7 +17,7 @@ const PlaceData = (e) => {
     products.push(product);
     localStorage.setItem("products", JSON.stringify(products));
     alert("Product Added Successfully!!!")
-    window.location.href = "/Local_Session_Storage/Tourist_Place/index.html"
+    window.location.href = "/JAVASCRIPT/Local_Session_Storage/Tourist_Place/index.html"
 
 }
 

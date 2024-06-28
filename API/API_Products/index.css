@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5e3d9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px;
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 80%;
+}
+
+#products>div {
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.1);
+}
+
+#products img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#products h2 {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+#products p {
+    color: #555;
+    margin: 5px 0;
+}
+
+#products button {
+    color: white;
+    border: none;
+    padding: 10px 90px;
+    margin: 10px 5px;
+    cursor: pointer;
+    background-color: rgb(29, 65, 52);
+    box-shadow: 1px 1px 1px 1px rgb(160, 160, 160);
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+#products button:hover {
+    background-color: rgb(41, 84, 68);
+}
+
+#products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+}
+
+#products div img {
+    height: 250px;
+}
+
+#products div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

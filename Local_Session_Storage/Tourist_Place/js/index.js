@@ -31,13 +31,12 @@ const ProductItems = (data) => {
             count++;
             localStorage.setItem("count", count);
             btn1.innerHTML = "LIKE " + count;
-            // alert('You Liked This Place!!');
         });
 
         let btn2 = document.createElement("button");
         btn2.innerHTML = "WISHLIST";
         btn2.addEventListener("click", () => {
-            localStorage.setItem("Wishlist" , JSON.stringify(products));
+            localStorage.setItem("Wishlist", JSON.stringify(products));
             alert('Added to Wishlist!');
         });
 
@@ -53,35 +52,38 @@ const ProductItems = (data) => {
 ProductItems(products);
 
 
-const HandleCost=(order)=>{
+const HandleCost = (order) => {
 
-    if(order == "priceLTH"){
+    if (order == "priceLTH") {
 
-        let temp = products.sort((a,b) => a.price - b.price)
+        let temp = products.sort((a, b) => a.price - b.price)
         ProductItems(temp)
     }
-    else{
-        let temp = products.sort((a,b) => b.price - a.price)
+    else {
+        let temp = products.sort((a, b) => b.price - a.price)
         ProductItems(temp)
     }
 }
 
-document.getElementById("priceLTH").addEventListener("click" , ()=>HandleCost("priceLTH"));
-document.getElementById("priceHTL").addEventListener("click" , ()=>HandleCost("priceHTL"));
 
+const HandleLikes = (order) => {
 
+    if (order == "0") {
 
-const handleLikes = (order) => {
-    let sortedProducts = [...products];
-    if (order === "likesLTH") {
-        sortedProducts.sort((a, b) => a.likes - b.likes);
-    } else {
-        sortedProducts.sort((a, b) => b.likes - a.likes);
+        let temp = products.sort((a, b) => a.price - b.price)
+        ProductItems(temp)
     }
-    ProductItems(sortedProducts);
-};
+    else {
+        let temp = products.sort((a, b) => b.price - a.price)
+        ProductItems(temp)
+    }
+}
 
-document.getElementById("likesLTH").addEventListener("click", () => handleLikes("likesLTH"));
-document.getElementById("likesHTL").addEventListener("click", () => handleLikes("likesHTL"))
 
+document.getElementById("likesLTH").addEventListener("click", () => HandleLikes("likesLTH"));
+document.getElementById("likesHTL").addEventListener("click", () => HandleLikes("likesHTL"));
+
+
+document.getElementById("priceLTH").addEventListener("click", () => HandleCost("priceLTH"));
+document.getElementById("priceHTL").addEventListener("click", () => HandleCost("priceHTL"));
 
