@@ -71,10 +71,10 @@ const HandleLikes = (order) => {
     if (order == "0") {
 
         let temp = products.sort((a, b) => a.price - b.price)
-        ProductItems(temp)
+        ProductItems(temp);
     }
     else {
-        let temp = products.sort((a, b) => b.price - a.price)
+        let temp = products.sort((a, b) => b.price - a.price);
         ProductItems(temp)
     }
 }
