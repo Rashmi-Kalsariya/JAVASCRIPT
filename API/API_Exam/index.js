@@ -23,7 +23,7 @@ const ApiData = (data) => {
         div.style.cursor="pointer"
         div.addEventListener("click", ()=>{
             localStorage.setItem("id", ele.id);
-            window.location.href="/API/API_Exam/Product_Items/item.html"
+            window.location.href="/JAVASCRIPT/API/API_Exam/Product_Items/item.html"
         })
         div.append(image, title, price, category, rate);
 
