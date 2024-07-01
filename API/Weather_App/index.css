@@ -7,7 +7,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    overflow: hidden;
+    overflow-x: hidden;
     position: relative; 
 }
 
@@ -20,7 +20,7 @@ canvas {
 
 .container {
     text-align: center;
-    width: 50%;
+    width: 90%;
     max-width: 700px;
     padding: 40px;
     background-color: rgb(59, 59, 59,0.5);
