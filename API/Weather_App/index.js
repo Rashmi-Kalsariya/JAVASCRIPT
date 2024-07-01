@@ -1,82 +1,82 @@
 const createWeatherCard = (data) => {
-    const dataDiv = document.getElementById("data");
-    dataDiv.innerHTML = '';
+    let Div = document.getElementById("data");
+    Div.innerHTML = '';
 
-    const card = document.createElement("div");
+    let card = document.createElement("div");
     card.classList.add("weather-card");
 
-    const weatherImage = getWeatherImage(data.weather[0].main);
+    let weatherImage = getWeatherImage(data.weather[0].main);
+    let weatherDescription = data.weather[0].main;
 
     card.innerHTML = `
-        <div class="weather-card-header">
-            <h2>${data.name}</h2>
-            <img src="${weatherImage}" alt="Weather Icon" class="weather-icon">
-            <p class="temperature">${data.main.temp} °C</p>
-        </div>
-        <div class="weather-card-body">
-            <div class="weather-info">
-                <div class="weather-box">
-                    <p>Real feel</p>
-                    <p>${data.main.feels_like} °C</p>
-                </div>
-                <div class="weather-box">
-                    <p>Humidity</p>
-                    <p>${data.main.humidity} %</p>
-                </div>
-                <div class="weather-box">
-                    <p>Pressure</p>
-                    <p>${data.main.pressure} hPa</p>
-                </div>
-                <div class="weather-box">
-                    <p>Wind</p>
-                    <p>${data.wind.speed} km/h ${data.wind.deg}°</p>
-                </div>
+        <h2>${data.name}, ${data.sys.country}</h2>
+
+        <p>${new Date().toLocaleString()}</p>
+        <p id="type">${weatherDescription}</p>
+
+        <img src="${weatherImage}" alt="Weather Icon" class="weather-icon">
+
+        <p class="temperature">${Math.round(data.main.temp)}°</p>
+        <p>Min: ${Math.round(data.main.temp_min)}° Max: ${Math.round(data.main.temp_max)}°</p>
+
+        <div class="weather-info">
+            <div class="weather-box">
+                <p><img src="https://img.icons8.com/ios/50/000000/temperature.png" alt="" class="info-icon"> Real Feel</p>
+                <p>${Math.round(data.main.feels_like)}°</p>
             </div>
-            <p>Weather: ${data.weather[0].description}</p>
+            <div class="weather-box">
+                <p><img src="https://img.icons8.com/ios/50/000000/hygrometer.png" alt="" class="info-icon"> Humidity</p>
+                <p>${data.main.humidity}%</p>
+            </div>
+            <div class="weather-box">
+                <p><img src="https://img.icons8.com/ios/50/000000/wind.png" alt="" class="info-icon"> Wind</p>
+                <p>${data.wind.speed} m/s</p>
+            </div>
+            <div class="weather-box">
+                <p><img src="https://img.icons8.com/ios/50/000000/barometer.png" alt="" class="info-icon"> Pressure</p>
+                <p>${data.main.pressure} hPa</p>
+            </div>
         </div>
     `;
 
-    dataDiv.appendChild(card);
+    Div.append(card);
 }
 
 const getWeatherImage = (weather) => {
-    const weatherLower = weather.toLowerCase();
-    if (weatherLower.includes('clear')) {
-        return 'https://openweathermap.org/img/wn/01d.png';
-    } else if (weatherLower.includes('cloud')) {
-        return 'https://openweathermap.org/img/wn/03d.png';
-    } else if (weatherLower.includes('rain')) {
-        return 'https://openweathermap.org/img/wn/09d.png';
-    } else if (weatherLower.includes('snow')) {
-        return 'https://openweathermap.org/img/wn/13d.png';
-    } else if (weatherLower.includes('thunderstorm')) {
-        return 'https://openweathermap.org/img/wn/11d.png';
-    } else if (weatherLower.includes('drizzle')) {
-        return 'https://openweathermap.org/img/wn/10d.png';
-    } else if (weatherLower.includes('mist') || weatherLower.includes('smoke') || weatherLower.includes('haze') || 
-               weatherLower.includes('dust') || weatherLower.includes('fog') || weatherLower.includes('sand') || 
-               weatherLower.includes('ash') || weatherLower.includes('squall') || weatherLower.includes('tornado')) {
-        return 'https://openweathermap.org/img/wn/50d.png';
+    if (weather.includes('Clear')) {
+        return 'https://cdn-icons-png.flaticon.com/512/3222/3222807.png';
+    } else if (weather.includes('Clouds')) {
+        return 'https://www.pngarts.com/files/3/White-Clouds-PNG-Pic.png';
+    } else if (weather.includes('Rain')) {
+        return 'http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/256/Status-weather-showers-day-icon.png';
+    } else if (weather.includes('Snow')) {
+        return 'https://cdn-icons-png.freepik.com/512/6635/6635585.png';
+    } else if (weather.includes('Thunderstorm')) {
+        return 'https://icons.veryicon.com/png/o/weather/weather-fill/weather-thunderstorm-5.png';
+    } else if (weather.includes('Drizzle')) {
+        return 'https://www.clipartmax.com/png/middle/182-1822480_rain-icon-rainy-weather-icon.png';
+    } else if (weather.includes('Mist') || weather.includes('Smoke') || weather.includes('Haze') || 
+               weather.includes('Dust') || weather.includes('Fog') || weather.includes('Sand') || 
+               weather.includes('Ash') || weather.includes('Squall') || weather.includes('Tornado')) {
+        return 'https://cdn.icon-icons.com/icons2/1370/PNG/512/if-weather-30-2682821_90800.png';
     } else {
-        return 'https://openweathermap.org/img/wn/01d.png';
+        return 'https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtNTM1LXN1bi0wNy1hLnBuZw.png';
     }
 }
 
 const getData = async (city) => {
-    const req = await fetch(`https://api.openweathermap.org/data/2.5/weather?appid=0fdc88f1a67d09059c9e313b7d58d6bc&q=${city}&units=metric`);
-    const res = await req.json();
+    let req = await fetch(`https://api.openweathermap.org/data/2.5/weather?appid=0fdc88f1a67d09059c9e313b7d58d6bc&q=${city}&units=metric`);
+    let res = await req.json();
     createWeatherCard(res);
 }
 
-const handleData = (e) => {
+const HandleData = (e) => {
     e.preventDefault();
-    const city = document.getElementById("city").value;
+    let city = document.getElementById("city").value;
     getData(city);
 }
 
-document.getElementById("form").addEventListener("submit", handleData);
-
-
+document.getElementById("form").addEventListener("submit", HandleData);
 
 
 /* SNOW FLAKES */

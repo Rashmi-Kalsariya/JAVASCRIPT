@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
     <link rel="stylesheet" href="./index.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
+    <link rel="shortcut icon" href="https://cdn2.iconfinder.com/data/icons/flat-jewels-icon-set/512/0006_Weather.png" type="image/x-icon">
 </head>
+
 <body>
     <div class="container">
         <form id="form">
-            <input type="text" id="city" placeholder="city name...">
-            <input type="submit" value="Search">
+            <input type="text" id="city" placeholder="Search for a city...">
+            <button type="submit">Search</button>
         </form>
-
-        <div id="data">
-
-        </div>
+        <div id="data"></div>
     </div>
+
 </body>
 <script src="./index.js"></script>
+
 </html>
