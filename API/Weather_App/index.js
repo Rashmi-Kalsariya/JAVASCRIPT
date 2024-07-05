@@ -11,12 +11,12 @@ let ImgData = {
 };
 
 let BgData = {
-    Rain: "url('https://images.pexels.com/photos/2448749/pexels-photo-2448749.jpeg?auto=compress&cs=tinysrgb&w=600')",
-    Clouds: "url('https://images.pexels.com/photos/531767/pexels-photo-531767.jpeg?auto=compress&cs=tinysrgb&w=600')",
-    Snow: "url('https://images.pexels.com/photos/4969844/pexels-photo-4969844.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load')",
-    Clear: "url('https://images.pexels.com/photos/5326741/pexels-photo-5326741.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
-    Thunderstorm: "url('https://images.pexels.com/photos/2531709/pexels-photo-2531709.jpeg?auto=compress&cs=tinysrgb&w=600')",
-    Drizzle: "url('https://images.pexels.com/photos/7485212/pexels-photo-7485212.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load')",
+    Rain: "url('https://cdn141.picsart.com/272298469002201.jpg')",
+    Clouds: "url('https://getwallpapers.com/wallpaper/full/5/6/c/30132.jpg')",
+    Snow: "url('https://img.freepik.com/premium-photo/fantastic-winter-landscape-trodden-trails-that-lead-into_146671-14688.jpg?w=2000')",
+    Clear: "url('https://wallpapers.com/images/hd/sunny-day-wallpaper-f21ok5dhnkco3i5n.jpg')",
+    Thunderstorm: "url('https://images.pexels.com/photos/1114690/pexels-photo-1114690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
+    Drizzle: "url('https://i.pinimg.com/originals/7d/6e/bd/7d6ebd1c4517d40f1319315d50a8f79e.gif')",
     Haze: "url('https://images.pexels.com/photos/691574/pexels-photo-691574.jpeg?auto=compress&cs=tinysrgb&w=600')",
     Sun: "url('https://images.pexels.com/photos/7093517/pexels-photo-7093517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
     Others: "url('https://images.pexels.com/photos/1165991/pexels-photo-1165991.jpeg?auto=compress&cs=tinysrgb&w=600')"
