@@ -7,11 +7,10 @@
     <title>Digital Clock</title>
     <link rel="shortcut icon" href="./clock-solid.svg" type="image/x-icon">
     <style>
-        body {
+      body {
             margin: 0;
             padding: 0;
         }
-
 
         #cont {
             position: relative;
@@ -20,7 +19,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            flex-direction: column;
             background: #091921;
         }
 
@@ -47,8 +45,10 @@
         }
 
         #cont #clock {
-            width: 650px;
-            height: 650px;
+            width: 90vw;
+            height: 90vw;
+            max-width: 820px;
+            max-height: 820px;
             z-index: 1;
             display: flex;
             overflow: hidden;
@@ -61,11 +61,7 @@
             border-top: 1px solid rgba(255, 255, 255, 0.2);
             border-left: 1px solid rgba(255, 255, 255, 0.2);
             box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
-        }
-
-        .clock {
-            position: absolute;
-            top: 50%;
+            position: relative;
         }
 
         .text,
@@ -78,36 +74,52 @@
 
         #days {
             position: absolute;
-            top: 30%;
-            left: 25%;
-            font-size: 80px;
-            text-align: center !important;
+            top:28%;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 5.5vw;
+            text-align: center;
         }
 
         #date {
             position: absolute;
-            top: 50%;
-            left: 33%;
-            font-size: 30px;
+            top: 48%;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 2.1vw;
         }
 
         .time {
+            width: 100%;
             position: absolute;
             top: 60%;
-            left: 18%;
+            left: 68%;
+            transform: translateX(-50%);
+            font-size: 4.5vw;
         }
 
-        .time{
-            font-size: 70px;
-        }
-
-        #ampm{
+        #ampm {
             position: absolute;
-            left: 103%;
+            left:61%;
+            font-size: 2vw;
         }
 
-        #ampm{
-            font-size: 30px;
+        @media screen and (max-width: 600px) {
+            #days {
+                font-size: 12vw;
+            }
+
+            #date {
+                font-size: 6vw;
+            }
+
+            .time {
+                font-size: 9vw;
+            }
+
+            #ampm {
+                font-size: 5vw;
+            }
         }
     </style>
 </head>
