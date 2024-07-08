@@ -4,7 +4,7 @@ let ImgData = {
     Snow: "https://cdn-icons-png.freepik.com/512/6635/6635585.png",
     Clear: "https://cdn-icons-png.flaticon.com/512/3222/3222807.png",
     Thunderstorm: "https://icons.veryicon.com/png/o/weather/weather-fill/weather-thunderstorm-5.png",
-    Drizzle: "https://www.clipartmax.com/png/middle/182-1822480_rain-icon-rainy-weather-icon.png",
+    Drizzle: "https://cdn-icons-png.flaticon.com/256/8047/8047144.png",
     Haze: "https://cdn.icon-icons.com/icons2/1370/PNG/512/if-weather-30-2682821_90800.png",
     Sun: "https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtNTM1LXN1bi0wNy1hLnBuZw.png",
     Others: "https://cdn.icon-icons.com/icons2/1370/PNG/512/if-weather-30-2682821_90800.png"
@@ -17,9 +17,9 @@ let BgData = {
     Clear: "url('https://wallpapers.com/images/hd/sunny-day-wallpaper-f21ok5dhnkco3i5n.jpg')",
     Thunderstorm: "url('https://images.pexels.com/photos/1114690/pexels-photo-1114690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
     Drizzle: "url('https://i.pinimg.com/originals/7d/6e/bd/7d6ebd1c4517d40f1319315d50a8f79e.gif')",
-    Haze: "url('https://images.pexels.com/photos/691574/pexels-photo-691574.jpeg?auto=compress&cs=tinysrgb&w=600')",
+    Haze: "url('https://www.edenproject.com/sites/default/files/2021-06/rainforest-clouds-above.jpg')",
     Sun: "url('https://images.pexels.com/photos/7093517/pexels-photo-7093517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
-    Others: "url('https://images.pexels.com/photos/1165991/pexels-photo-1165991.jpeg?auto=compress&cs=tinysrgb&w=600')"
+    Others: "url('https://w.forfun.com/fetch/fc/fc7f9578c01047e6a06f2435ad332e27.jpeg')"
 };
 
 
