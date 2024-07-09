@@ -46,7 +46,10 @@ const createWeatherCard = (data) => {
         <img src="${weatherImage}" alt="${weatherDescription}" class="weather-image">
 
         <p class="temperature">${Math.round(data.main.temp)}°</p>
-        <p>Min: ${Math.round(data.main.temp_min)}° Max: ${Math.round(data.main.temp_max)}°</p>
+        <p>Min: ${Math.round(data.main.temp_min
+
+            
+        )}° Max: ${Math.round(data.main.temp_max)}°</p>
 
         <div class="weather-info">
             <div class="weather-box">

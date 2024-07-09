@@ -205,10 +205,10 @@ h1 {
 }
 
 .Content {
-    width: 35%;
+    width: 30%;
     margin: 50px auto;
     background-color: rgba(255, 255, 255, 0.5);
-    padding: 35px;
+    padding: 30px;
     margin: auto;
     border: 2px solid white;
     border-radius: 40px;
@@ -225,14 +225,14 @@ select {
     font-weight: 700;
 }
 
-input[type="text"]:focus,
+/* input[type="text"]:focus,
 input[type="date"]:focus,
 input[type="number"]:focus 
     {
     font-size: 16px;
     font-weight: 600;
     padding-left: 30px;
-}
+} */
 
 
 .Employee_info {
@@ -247,8 +247,8 @@ input[type="number"]:focus
 #price,
 #add {
     width: 95%;
-    margin:15px;
-    padding: 15px 0;
+    margin:10px;
+    padding: 12px 0;
     font-weight: 900;
     color: rgb(0, 0, 0);
 }
@@ -319,5 +319,93 @@ th {
 }
 
 #DeleteAll {
+    cursor: pointer;
+}
+
+
+
+/*  MY BOOKS COUNT */
+
+.books{
+    position: absolute;
+    left: 43%;
+    top: 25%;
+    height: 20px;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    color: #eee;
+    font-size: larger;
+    font-weight: 600;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+
+#books-table{
+    position: absolute;
+    left: 23%;
+    top: 40%;
+}
+
+#books-table th{
+    padding: 10px 35px;
+    border-radius: 10px;
+    color: #000000;
+    background-color: rgb(229, 229, 229);
+}
+
+#books-table tr{
+    padding: 10px;
+    border-radius: 10px;
+    color: #000000;
+    background-color: rgb(225, 190, 143, 0.7);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+
+/* DASHBOARD */
+
+.table{
+    position: absolute;
+    left: 13%;
+    top: 30%;
+    text-align: center;
+    padding: 10px;
+    color: #eee;
+    font-size: larger;
+    font-weight: 600;
+}
+
+
+.table th{
+    padding: 10px 35px;
+    border-radius: 10px;
+    color: #000000;
+    background-color: rgb(229, 229, 229);
+}
+
+.table tr{
+    padding: 10px;
+    border-radius: 10px;
+    color: #000000;
+    background-color: rgb(225, 190, 143, 0.7);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.mark{
+    position: absolute;
+    left: 90%;
+    margin: 5px 0;
+    /* padding: 5px; */
+    background-color:  rgb(225, 190, 143, 0.7);
+    cursor: pointer;
+}
+
+.buy{
+    background-color:  rgb(225, 190, 143, 0.7);
     cursor: pointer;
 }

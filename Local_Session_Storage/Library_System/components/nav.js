@@ -15,10 +15,10 @@ const nav = () => {
             </label>
             <div class="nav-container">
                 <div class="nav-tabs">
-                    <a class="nav-tab" href="./index.html">Home</a>
-                    <a class="nav-tab" href="./pages/dash.html">Dashboard</a>
-                    <a class="nav-tab" href="./pages/MyBooks.html">MyBooks</a>
-                    <a class="nav-tab" href="./pages/BookMarks.html">BookMarks</a>
+                    <a class="nav-tab" href="/JAVASCRIPT/Local_Session_Storage/Library_System/index.html">Home</a>
+                    <a class="nav-tab" href="/JAVASCRIPT/Local_Session_Storage/Library_System/pages/dash.html">Dashboard</a>
+                    <a class="nav-tab" href="/JAVASCRIPT/Local_Session_Storage/Library_System/pages/BookMarks.html">MyBooks</a>
+                    <a class="nav-tab" href="/JAVASCRIPT/Local_Session_Storage/Library_System/pages/MyBooks.html">BookMarks</a>
                 </div>
             </div>
         </nav>

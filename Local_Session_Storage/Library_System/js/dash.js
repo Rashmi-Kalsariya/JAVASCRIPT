@@ -26,11 +26,13 @@ const BookDetails = () => {
         let Buy = document.createElement("button");
         buy.append(Buy)
         Buy.innerHTML = "Buy"
+        Buy.className="buy"
 
         let bookmark = document.createElement("button");
         let mark = document.createElement("tr");
         mark.append(bookmark)
         bookmark.innerHTML = "Add"
+        bookmark.className="mark"
 
         book.innerHTML = e.book
         author.innerHTML = e.author
@@ -48,7 +50,7 @@ const BookDetails = () => {
             let buyList = localStorage.getItem("buy-list");
             
             let BuyList = buyList ? JSON.parse(buyList) : [];
-            e.addDate = new Date().toLocaleDateString();
+            e.addDate = e.date
             BuyList.push(e);
             localStorage.setItem("buy-list", JSON.stringify(BuyList));
 
@@ -61,7 +63,7 @@ const BookDetails = () => {
 
             let bookmarkList = localStorage.getItem("bookmark-list");
             let BookmarkList = bookmarkList ? JSON.parse(bookmarkList) : [];
-            e.addDate = new Date().toLocaleDateString();
+            e.addDate = e.date
             BookmarkList.push(e);
             localStorage.setItem("bookmark-list", JSON.stringify(BookmarkList));
 
