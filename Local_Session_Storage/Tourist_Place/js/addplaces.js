@@ -1,27 +1,40 @@
-import navbar from "../components/navbar.js"
+import navbar from "../components/navbar.js";
 
 document.getElementById("navbar").innerHTML = navbar();
 
 let products = JSON.parse(localStorage.getItem("products")) || [];
+let SignupDetails = JSON.parse(localStorage.getItem("user"));
+
 
 const PlaceData = (e) => {
-    e.preventDefault()
+    e.preventDefault();
 
-    let product = {
-        title: document.getElementById("title").value,
-        img: document.getElementById("img1").value,
-        price: document.getElementById("cost").value,
-        Description: document.getElementById("desc").value,
+    if (SignupDetails) {
+        let product = {
+            id: Date.now().toString(),
+            title: document.getElementById("title").value,
+            img: [
+                document.getElementById("img1").value,
+                document.getElementById("img2").value,
+                document.getElementById("img3").value
+            ],
+            price: document.getElementById("cost").value,
+            Description: document.getElementById("desc").value,
+            likes: 0,
+            comments: []
+        };
+
+        products.push(product);
+        localStorage.setItem("products", JSON.stringify(products));
+        alert("Place Added Successfully!!!");
+        window.location.href = "/JAVASCRIPT/Local_Session_Storage/Tourist_Place/index.html";
+    }
+    else {
+        alert("SignUp First!!!");
+        window.location.href = "/JAVASCRIPT/Local_Session_Storage/Tourist_Place/pages/signup.html";
     }
 
-    products.push(product);
-    localStorage.setItem("products", JSON.stringify(products));
-    alert("Product Added Successfully!!!")
-    window.location.href = "/JAVASCRIPT/Local_Session_Storage/Tourist_Place/index.html"
 
-}
+};
 
-document.getElementById("addplaces").addEventListener("submit", PlaceData)
-
-
-
+document.getElementById("addplaces").addEventListener("submit", PlaceData);

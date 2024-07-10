@@ -24,10 +24,13 @@ h1{
     width: 85%;
     background-color: rgba(0, 0, 0, 0.9);
     border: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     border-radius: 8px;
 }
 
+#pass{
+    color: white;
+}
 
 input[type="submit"]{
     font-weight: 500;

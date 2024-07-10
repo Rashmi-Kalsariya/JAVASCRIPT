@@ -3,7 +3,7 @@ const nav = () => {
     return ` <div class="nav-wrapper">
         <div class="logo-container">
             <img class="logo"
-                src="/JAVASCRIPT/Dice/imgs/61f7cd1767553f0004c53e6e.png"
+                src="https://www.withsocrates.com/wp-content/uploads/2023/01/library-logo1.png"
                 alt="Logo">
         </div>
         <nav>
