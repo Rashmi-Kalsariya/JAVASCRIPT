@@ -74,6 +74,10 @@
                 <option>America</option>
                 <option>China</option>
                 <option>Japan</option>
+                <option>Canada</option>
+                <option>Russia</option>
+                <option>UK</option>
+                <option>UAE</option>
             </select><br><br>
             <input type="submit" class="submit" />
         </form>
@@ -81,10 +85,12 @@
 </body>
 <script>
     let push_data = JSON.parse(localStorage.getItem("push_data")) || [];
+    let SignupDetails = JSON.parse(localStorage.getItem("user"));
 
     const handledata = (e) => {
         e.preventDefault();
 
+       if(SignupDetails){
         let data = {
             title: document.getElementById("title").value,
             description: document.getElementById("description").value,
@@ -94,6 +100,11 @@
         push_data.push(data);
         localStorage.setItem("push_data", JSON.stringify(push_data));
         window.location.href = "index.html";
+       }
+       else{
+        alert("Signup First!!!");
+        window.location.href = "/JAVASCRIPT/Local_Session_Storage/News_App/signup.html"
+       }
     }
 
     document.getElementById("add_news").addEventListener("submit", handledata);
