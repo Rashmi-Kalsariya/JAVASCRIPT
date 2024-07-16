@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music App</title>
+  <link rel="stylesheet" href="/Music_Player-main/CSS/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="https://pngfre.com/wp-content/uploads/music-note-26.png" type="image/x-icon">
+</head>
+
+<body>
+  <main>
+    <div class="music-player">
+      <div class="player-image">
+        <img id="imageBig" src="https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-woman-in-colorful-music-sound-wallpaper-image_2894117.jpg" alt="Song Cover">
+      </div>
+      <div class="player-controls">
+        <div class="player-buttons">
+          <button id="prevButton"><i class="fa-solid fa-backward"></i></button>
+          <button id="playButton"><i class="fa-solid fa-play"></i></button>
+          <button id="nextButton"><i class="fa-solid fa-forward"></i></button>
+          <button id="repeatButton"><i class="fa-solid fa-redo"></i></button>
+        </div>
+      </div>
+      <div class="progress-container">
+        <div id="progressBar"></div>
+      </div>
+      <div id="songPlayer" class="song-list"></div>
+    </div>
+  </main>
+  <script src="/Music_Player-main/JS/script.js"></script>
+</body>
+
+</html>
