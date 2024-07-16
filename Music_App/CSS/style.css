@@ -218,3 +218,20 @@ main {
   background-color: #ffffff;
   border-radius: 2px;
 }
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  width: 100%; 
+  margin: 20px 0; 
+}
+
+#searchBar {
+  width: 250%; 
+  padding: 10px; 
+  border: 1px solid #ccc;
+  background-color: #2d2d2d;
+  color: #fff; 
+  border-radius: 5px; 
+}
+
