@@ -1,0 +1,77 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(#0F2027, #203A43);
+}
+
+.editor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.code {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+}
+
+.CodeMirror {
+    height: 75px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.CodeMirror-scroll {
+    overflow: hidden !important; 
+}
+
+.CodeMirror-gutters {
+    background: transparent;
+    border: none;
+}
+
+.CodeMirror-lines {
+    padding: 12px 20px;
+}
+
+.CodeMirror-selected {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.CodeMirror-focused {
+    outline: none;
+}
+
+iframe {
+    border: 1px solid gray;
+    height: 50vh;
+    width: 90vw;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007acc;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005f99;
+}
