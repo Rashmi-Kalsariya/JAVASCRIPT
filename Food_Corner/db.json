@@ -1,0 +1,204 @@
+{
+  "foodData": [
+    {
+      "id": 1,
+      "image": "https://www.summahealth.org/-/media/project/summahealth/website/page-content/flourish/2_18a_fl_fastfood_400x400.webp?la=en&h=400&w=400&hash=145DC0CF6234A159261389F18A36742A",
+      "foodName": "Pizza Margherita",
+      "category": "Italian",
+      "price": 12.99,
+      "rating": 4.5,
+      "buyButton": "Buy Now",
+      "city": "Surat"
+    },
+    {
+      "id": 2,
+      "image": "https://hungrybynature.com/wp-content/uploads/2017/09/pinch-of-yum-workshop-19.jpg",
+      "foodName": "Sushi Rolls",
+      "category": "Japanese",
+      "price": 15.99,
+      "rating": 4.7,
+      "buyButton": "Buy Now",
+      "city": "Ahmedabad"
+    },
+    {
+      "id": 3,
+      "image": "https://cdn-ilaijbf.nitrocdn.com/YzeYmKigJpOUmEDUPOsqjcZLGXECGjCN/assets/images/optimized/rev-fee2c83/www.foodfood.com/wp-content/uploads/2024/05/PunjabiSamosa.jpg",
+      "foodName": "Burger with Fries",
+      "category": "American",
+      "price": 10.49,
+      "rating": 4.2,
+      "buyButton": "Buy Now",
+      "city": "Vadodara"
+    },
+    {
+      "id": 4,
+      "image": "https://www.eatingwell.com/thmb/QYZnBgF72TIKI6-A--NyoPa6avY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/greek-salmon-bowl-f681500cbe054bb1adb607ff55094075.jpeg",
+      "foodName": "Tacos",
+      "category": "Mexican",
+      "price": 8.99,
+      "rating": 4.6,
+      "buyButton": "Buy Now",
+      "city": "Rajkot"
+    },
+    {
+      "id": 5,
+      "image": "https://www.iaea.org/sites/default/files/styles/original_image_size/public/str7803.jpg?itok=oYsZLbj9",
+      "foodName": "Pad Thai",
+      "category": "Thai",
+      "price": 11.49,
+      "rating": 4.8,
+      "buyButton": "Buy Now",
+      "city": "Gandhinagar"
+    },
+    {
+      "id": 6,
+      "image": "https://vistaramagazine.com/wp-content/uploads/2022/06/food-trail-coimbatore-microsite1-1024x576.jpg",
+      "foodName": "Falafel Wrap",
+      "category": "Middle Eastern",
+      "price": 9.99,
+      "rating": 4.3,
+      "buyButton": "Buy Now",
+      "city": "Bhavnagar"
+    },
+    {
+      "id": 7,
+      "image": "https://images.unsplash.com/photo-1601959637154-f2c2766277b8",
+      "foodName": "Chicken Curry",
+      "category": "Indian",
+      "price": 13.99,
+      "rating": 4.4,
+      "buyButton": "Buy Now",
+      "city": "Surat"
+    },
+    {
+      "id": 8,
+      "image": "https://images.unsplash.com/photo-1605635353898-fc7114fc0a8a",
+      "foodName": "Ramen",
+      "category": "Japanese",
+      "price": 12.49,
+      "rating": 4.7,
+      "buyButton": "Buy Now",
+      "city": "Ahmedabad"
+    },
+    {
+      "id": 9,
+      "image": "https://images.unsplash.com/photo-1562102836-86ec9ab0de9b",
+      "foodName": "Greek Salad",
+      "category": "Greek",
+      "price": 7.99,
+      "rating": 4.5,
+      "buyButton": "Buy Now",
+      "city": "Vadodara"
+    },
+    {
+      "id": 10,
+      "image": "https://images.unsplash.com/photo-1605180906587-f745208b68b1",
+      "foodName": "Pancakes",
+      "category": "American",
+      "price": 6.49,
+      "rating": 4.6,
+      "buyButton": "Buy Now",
+      "city": "Rajkot"
+    },
+    {
+      "id": 11,
+      "image": "https://images.unsplash.com/photo-1597292321962-c2461e007a29",
+      "foodName": "Burrito",
+      "category": "Mexican",
+      "price": 9.49,
+      "rating": 4.3,
+      "buyButton": "Buy Now",
+      "city": "Gandhinagar"
+    },
+    {
+      "id": 12,
+      "image": "https://images.unsplash.com/photo-1576157585934-b94a978b1e3c",
+      "foodName": "Spaghetti Carbonara",
+      "category": "Italian",
+      "price": 14.99,
+      "rating": 4.7,
+      "buyButton": "Buy Now",
+      "city": "Bhavnagar"
+    },
+    {
+      "id": 13,
+      "image": "https://images.unsplash.com/photo-1570377215952-cb33f688d0c7",
+      "foodName": "Chicken Caesar Salad",
+      "category": "American",
+      "price": 11.49,
+      "rating": 4.4,
+      "buyButton": "Buy Now",
+      "city": "Surat"
+    },
+    {
+      "id": 14,
+      "image": "https://images.unsplash.com/photo-1596305627385-0296893a01f8",
+      "foodName": "Beef Stroganoff",
+      "category": "Russian",
+      "price": 16.99,
+      "rating": 4.6,
+      "buyButton": "Buy Now",
+      "city": "Ahmedabad"
+    },
+    {
+      "id": 15,
+      "image": "https://images.unsplash.com/photo-1573861357214-2c87277d7a23",
+      "foodName": "Shrimp Fried Rice",
+      "category": "Chinese",
+      "price": 12.99,
+      "rating": 4.5,
+      "buyButton": "Buy Now",
+      "city": "Vadodara"
+    },
+    {
+      "id": 16,
+      "image": "https://images.unsplash.com/photo-1542641296-e9f7c8b0c4d3",
+      "foodName": "Quiche Lorraine",
+      "category": "French",
+      "price": 13.49,
+      "rating": 4.8,
+      "buyButton": "Buy Now",
+      "city": "Rajkot"
+    },
+    {
+      "id": 17,
+      "image": "https://images.unsplash.com/photo-1583097543683-8328d7c9d742",
+      "foodName": "Samosas",
+      "category": "Indian",
+      "price": 7.49,
+      "rating": 4.3,
+      "buyButton": "Buy Now",
+      "city": "Gandhinagar"
+    },
+    {
+      "id": 18,
+      "image": "https://images.unsplash.com/photo-1556833414-c38b35e3a06b",
+      "foodName": "Peking Duck",
+      "category": "Chinese",
+      "price": 20.99,
+      "rating": 4.9,
+      "buyButton": "Buy Now",
+      "city": "Surat"
+    },
+    {
+      "id": 19,
+      "image": "https://images.unsplash.com/photo-1600891072423-098c5f8e6a7d",
+      "foodName": "Vegetable Stir-Fry",
+      "category": "Chinese",
+      "price": 10.99,
+      "rating": 4.4,
+      "buyButton": "Buy Now",
+      "city": "Ahmedabad"
+    },
+    {
+      "id": 20,
+      "image": "https://images.unsplash.com/photo-1541831192-145f09bcae10",
+      "foodName": "Croissant",
+      "category": "French",
+      "price": 3.99,
+      "rating": 4.6,
+      "buyButton": "Buy Now",
+      "city": "Bhavnagar"
+    }
+  ]
+}

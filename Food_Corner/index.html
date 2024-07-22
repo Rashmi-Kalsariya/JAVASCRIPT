@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Corner</title>
+    <link rel="stylesheet" href="./css/nav.css">
+</head>
+
+<body>
+
+    <div id="navbar">
+
+    </div>
+
+
+    <div id="search-container">
+        <h2>Search</h2>
+        <input type="text" id="search-input" placeholder="Search for food...">
+    </div>
+
+
+    <div id="categories">
+        <h2>Categories</h2>
+        <button class="category-btn" id="all">All</button>
+        <button class="category-btn" id="italian">Italian</button>
+        <button class="category-btn" id="japanese">Japanese</button>
+        <button class="category-btn" id="american">American</button>
+        <button class="category-btn" id="mexican">Mexican</button>
+        <button class="category-btn" id="thai">Thai</button>
+        <button class="category-btn" id="middle-eastern">Middle Eastern</button>
+        <button class="category-btn" id="indian">Indian</button>
+        <button class="category-btn" id="greek">Greek</button>
+        <button class="category-btn" id="russian">Russian</button>
+        <button class="category-btn" id="chinese">Chinese</button>
+        <button class="category-btn" id="french">French</button>
+    </div>
+
+    <div id="sort-container">
+        <h2>Sort By</h2>
+        <select id="sort-dropdown">
+            <option value="default">Default</option>
+            <option value="price-asc">Price: Low to High</option>
+            <option value="price-desc">Price: High to Low</option>
+            <option value="rating-asc">Rating: Low to High</option>
+            <option value="rating-desc">Rating: High to Low</option>
+        </select>
+    </div>
+
+
+    <div id="location">
+        <h2>Your Live Location</h2>
+        <p id="location-info">Fetching location...</p>
+    </div>
+
+
+    <div id="food-list">
+
+    </div>
+
+
+
+
+</body>
+<script type="module" src="./js/index.js"></script>
+
+</html>
