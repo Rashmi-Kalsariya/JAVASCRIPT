@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Courses</title>
+    <link rel="stylesheet" href="../css/courses.css">
+    <link rel="stylesheet" href="../css/nav.css">
+</head>
+<body>
+
+
+    <div id="navbar">
+
+    </div>
+
+
+   
+    <form id="CourseData">
+
+        <h1>Create New Courses</h1>
+
+        <input class="inputFeilds" id="title" type="text" placeholder="Title..." required>
+        <br>
+
+        <input class="inputFeilds" id="img" type="url" placeholder="Img url..." required>
+        <br>
+
+        <select class="inputFeilds" id="AddTopic" required>
+            <option value="select">Add Topic</option>
+            <option value="JS">JavaScript</option>
+            <option value="REACT">REACT</option>
+            <option value="CSS">CSS</option>
+            <option value="HTML">HTML</option>
+            <option value="NODE">NODE</option>
+            <option value="BootStrap">BootStrap</option>
+            <option value="Tailwind">Tailwind</option>
+            <option value="Mongodb">Mongodb</option>
+        </select>
+        <span>OR</span><br>
+        <label class="labels">Create New Topic:</label>
+        <input class="inputFeilds" id="ntopic" type="text" placeholder="New Topic" required>
+
+
+        <br>
+
+        
+        <input class="inputFeilds" id="CreateTopic" type="text" placeholder="Add SubTopic..." required>
+        <span>OR</span><br>
+        <label  class="labels">Create New SubTopic</label>
+        <input class="inputFeilds" id="CreateNewSubTopic" type="text" placeholder="New SubTopic" required>
+
+
+        <br>
+
+
+        <label for="Duration">Duration:</label>
+        <select class="inputFeilds" id="Duration" required>
+            <option>1 YEAR</option>
+            <option>2 YEAR</option>
+            <option>1.5 YEAR</option>
+            <option>6 Months</option>
+            <option>2 Months</option>
+        </select>
+
+        <br>
+        <label>Course Fee:</label>
+        <input class="inputFeilds" type="number" id="price" placeholder="Fees of Course..." required>
+
+        <br>
+        <label>Available Seats:</label>
+        <input class="inputFeilds" id="seat" type="number" placeholder="Available Seats..." required>
+        <br>
+
+        <label>Coupon Code:</label>
+        <input class="inputFeilds" id="code" type="text" placeholder="Code For Discount..." required>
+        <br>
+
+        <input class="inputFeilds" type="submit" value="Add Course">
+
+
+
+    </form>
+    
+</body>
+<script type="module" src="../js/courses.js"></script>
+</html>

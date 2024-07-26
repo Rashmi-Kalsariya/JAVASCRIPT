@@ -1,0 +1,15 @@
+#SignupData{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    height: 370px;
+    width: 300px;
+    padding: 40px;
+    background-color: rgb(30, 37, 42);
+}
+
+.inputFeilds{
+    padding: 10px;
+    margin: 10px 0;
+    width:100%;
+}

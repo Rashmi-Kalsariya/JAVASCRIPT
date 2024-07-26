@@ -1,0 +1,30 @@
+#CourseData{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    height: 900px;
+    width: 600px;
+    padding: 50px;
+    background-color: rgb(30, 37, 42);
+}
+
+.inputFeilds{
+    padding: 10px;
+    margin: 10px 0;
+    width:100%;
+}
+
+.labels,
+span{
+    color: white;
+    margin: 0 160px;
+}
+
+label{
+    color: white;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}

@@ -2,7 +2,7 @@
   "foodData": [
     {
       "id": 1,
-      "image": "https://www.summahealth.org/-/media/project/summahealth/website/page-content/flourish/2_18a_fl_fastfood_400x400.webp?la=en&h=400&w=400&hash=145DC0CF6234A159261389F18A36742A",
+      "image": "https://i.pinimg.com/originals/53/2b/ef/532bef5028d9ee83ca06bcbeaa7d5edc.jpg",
       "foodName": "Pizza Margherita",
       "category": "Italian",
       "price": 12.99,
@@ -12,7 +12,7 @@
     },
     {
       "id": 2,
-      "image": "https://hungrybynature.com/wp-content/uploads/2017/09/pinch-of-yum-workshop-19.jpg",
+      "image": "https://rare-gallery.com/uploads/posts/846827-Sushi-Caviar-Seafoods-Black-background.jpg",
       "foodName": "Sushi Rolls",
       "category": "Japanese",
       "price": 15.99,
@@ -32,7 +32,7 @@
     },
     {
       "id": 4,
-      "image": "https://www.eatingwell.com/thmb/QYZnBgF72TIKI6-A--NyoPa6avY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/greek-salmon-bowl-f681500cbe054bb1adb607ff55094075.jpeg",
+      "image": "https://i.pinimg.com/originals/a6/e9/4d/a6e94de08fa0709e7339a63768216515.jpg",
       "foodName": "Tacos",
       "category": "Mexican",
       "price": 8.99,
@@ -42,7 +42,7 @@
     },
     {
       "id": 5,
-      "image": "https://www.iaea.org/sites/default/files/styles/original_image_size/public/str7803.jpg?itok=oYsZLbj9",
+      "image": "https://i0.wp.com/kvasya.ru/uploads/images/gallery/42/d029d14ac62c3769581295eb627fb445.jpg?ssl=1",
       "foodName": "Pad Thai",
       "category": "Thai",
       "price": 11.49,
@@ -52,7 +52,7 @@
     },
     {
       "id": 6,
-      "image": "https://vistaramagazine.com/wp-content/uploads/2022/06/food-trail-coimbatore-microsite1-1024x576.jpg",
+      "image": "https://www.skai.gr/sites/default/files/styles/article_16_9/public/2022-08/shutterstock_falafel.jpg?itok=D7QBR6Aq",
       "foodName": "Falafel Wrap",
       "category": "Middle Eastern",
       "price": 9.99,
@@ -62,7 +62,7 @@
     },
     {
       "id": 7,
-      "image": "https://images.unsplash.com/photo-1601959637154-f2c2766277b8",
+      "image": "https://images.news18.com/ibnlive/uploads/2024/03/butter-chicken-2024-03-4cd33913f26af398b4b902abf248a954-scaled.jpg?impolicy=website&width=0&height=0",
       "foodName": "Chicken Curry",
       "category": "Indian",
       "price": 13.99,
@@ -72,7 +72,7 @@
     },
     {
       "id": 8,
-      "image": "https://images.unsplash.com/photo-1605635353898-fc7114fc0a8a",
+      "image": "https://fullofplants.com/wp-content/uploads/2022/02/easy-15-minute-vegan-ramen-with-miso-tofu-and-pak-choi-vegetarian-noodle-soup-thumb-2.jpg",
       "foodName": "Ramen",
       "category": "Japanese",
       "price": 12.49,
@@ -82,7 +82,7 @@
     },
     {
       "id": 9,
-      "image": "https://images.unsplash.com/photo-1562102836-86ec9ab0de9b",
+      "image": "https://static.tildacdn.com/stor6466-3336-4336-a131-623664623433/85555343.jpg",
       "foodName": "Greek Salad",
       "category": "Greek",
       "price": 7.99,
@@ -92,7 +92,7 @@
     },
     {
       "id": 10,
-      "image": "https://images.unsplash.com/photo-1605180906587-f745208b68b1",
+      "image": "https://i.pinimg.com/originals/fe/a3/14/fea31424e4a87319f9202632f14cdc65.jpg",
       "foodName": "Pancakes",
       "category": "American",
       "price": 6.49,
@@ -102,7 +102,7 @@
     },
     {
       "id": 11,
-      "image": "https://images.unsplash.com/photo-1597292321962-c2461e007a29",
+      "image": "https://i.pinimg.com/originals/e3/cc/ec/e3ccec176f3c14fad583de6d89333d4b.jpg",
       "foodName": "Burrito",
       "category": "Mexican",
       "price": 9.49,
@@ -112,7 +112,7 @@
     },
     {
       "id": 12,
-      "image": "https://images.unsplash.com/photo-1576157585934-b94a978b1e3c",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Espaguetis_carbonara.jpg/1200px-Espaguetis_carbonara.jpg",
       "foodName": "Spaghetti Carbonara",
       "category": "Italian",
       "price": 14.99,
@@ -122,7 +122,7 @@
     },
     {
       "id": 13,
-      "image": "https://images.unsplash.com/photo-1570377215952-cb33f688d0c7",
+      "image": "https://i.pinimg.com/originals/20/3c/b4/203cb44807d52ee2ba22c48418510e7a.jpg",
       "foodName": "Chicken Caesar Salad",
       "category": "American",
       "price": 11.49,
@@ -132,7 +132,7 @@
     },
     {
       "id": 14,
-      "image": "https://images.unsplash.com/photo-1596305627385-0296893a01f8",
+      "image": "https://www.escoffieronline.com/wp-content/uploads/2016/10/ThinkstockPhotos-523456979.jpg",
       "foodName": "Beef Stroganoff",
       "category": "Russian",
       "price": 16.99,
@@ -142,7 +142,7 @@
     },
     {
       "id": 15,
-      "image": "https://images.unsplash.com/photo-1573861357214-2c87277d7a23",
+      "image": "https://soupeduprecipes.com/wp-content/uploads/2019/08/shrimp-fried-rice.png",
       "foodName": "Shrimp Fried Rice",
       "category": "Chinese",
       "price": 12.99,
@@ -152,7 +152,7 @@
     },
     {
       "id": 16,
-      "image": "https://images.unsplash.com/photo-1542641296-e9f7c8b0c4d3",
+      "image": "https://cdn.vidaativa.pt/uploads/2020/01/quiche-de-legumes-saudavel.jpg",
       "foodName": "Quiche Lorraine",
       "category": "French",
       "price": 13.49,
@@ -162,7 +162,7 @@
     },
     {
       "id": 17,
-      "image": "https://images.unsplash.com/photo-1583097543683-8328d7c9d742",
+      "image": "https://indiansinjerseycity.com/wp-content/uploads/2018/02/6-5.jpg",
       "foodName": "Samosas",
       "category": "Indian",
       "price": 7.49,
@@ -172,7 +172,7 @@
     },
     {
       "id": 18,
-      "image": "https://images.unsplash.com/photo-1556833414-c38b35e3a06b",
+      "image": "https://miro.medium.com/v2/resize:fit:1200/1*nfaPwEk8lGpdK3l0ZZYMmw.jpeg",
       "foodName": "Peking Duck",
       "category": "Chinese",
       "price": 20.99,
@@ -182,7 +182,7 @@
     },
     {
       "id": 19,
-      "image": "https://images.unsplash.com/photo-1600891072423-098c5f8e6a7d",
+      "image": "https://www.mccormick.com/-/media/project/oneweb/mccormick-us/mccormick/recipe-images/stir-fry-vegetables-recipe-1376x774.webp?rev=67e26699de5d4faebc0857f922dbf4fe&vd=20220914T205624Z&extension=webp&hash=7DC9DDDC0F3C25EC9D90A83A82EED534",
       "foodName": "Vegetable Stir-Fry",
       "category": "Chinese",
       "price": 10.99,
@@ -192,7 +192,7 @@
     },
     {
       "id": 20,
-      "image": "https://images.unsplash.com/photo-1541831192-145f09bcae10",
+      "image": "https://grandgames.net/puzzle/f1200/kruasani_i_klubnika.jpg",
       "foodName": "Croissant",
       "category": "French",
       "price": 3.99,
