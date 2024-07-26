@@ -1,0 +1,75 @@
+{
+  "user": [
+    {
+      "id": "febc",
+      "username": "Rajat",
+      "email": "admin@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": "f44b",
+      "username": "Rashmi",
+      "email": "r@gmail.com",
+      "password": "123456789"
+    }
+  ],
+  "products": [
+    {
+      "id": "301f",
+      "Title": "Shirt",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTptI-C6qMjC6MRjQF2Wnm_r8In7HTY8al9Q&s",
+      "category": "Women",
+      "Description": "A Doctor Shirt",
+      "Price": "1200",
+      "Stock": "20"
+    },
+    {
+      "id": "e26e",
+      "Title": "Shirt",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTptI-C6qMjC6MRjQF2Wnm_r8In7HTY8al9Q&s",
+      "category": "Women",
+      "Description": "A Doctor Shirt",
+      "Price": "1200",
+      "Stock": "20"
+    },
+    {
+      "id": "c9d5",
+      "Title": "Tshirt",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTptI-C6qMjC6MRjQF2Wnm_r8In7HTY8al9Q&s",
+      "category": "women",
+      "Description": "Doctor Shirt",
+      "Price": "1200",
+      "Stock": "20"
+    },
+    {
+      "id": "301f",
+      "Title": "Shirt",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTptI-C6qMjC6MRjQF2Wnm_r8In7HTY8al9Q&s",
+      "category": "Women",
+      "Description": "A Doctor Shirt",
+      "Price": "1200",
+      "Stock": "20",
+      "qty": 1
+    },
+    {
+      "id": "301f",
+      "Title": "Shirt",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTptI-C6qMjC6MRjQF2Wnm_r8In7HTY8al9Q&s",
+      "category": "Women",
+      "Description": "A Doctor Shirt",
+      "Price": "1200",
+      "Stock": "20",
+      "qty": 1
+    },
+    {
+      "id": "301f",
+      "Title": "Shirt",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTptI-C6qMjC6MRjQF2Wnm_r8In7HTY8al9Q&s",
+      "category": "Women",
+      "Description": "A Doctor Shirt",
+      "Price": "1200",
+      "Stock": "20",
+      "qty": 1
+    }
+  ]
+}
